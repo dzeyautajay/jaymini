@@ -109,7 +109,7 @@ $user = mysqli_fetch_assoc($result);
         <p id="navbar-username">@<?php echo $user['username'] ?></p>
         <a href="edit.php" class="btnedit">&nbsp;&nbsp;<img src="images/pencil.png" alt="pencil.png" class="png6">&nbsp;&nbsp;Edit Profile&nbsp;&nbsp;</a>
 </div>
-        <a href="login.php" class="btnout" onclick="return confirm('Are you sure you want to log out?');" style="background-color: #818181; border: 1px solid #d5d5d7;">&nbsp;&nbsp;Log out&nbsp;&nbsp;</a>
+        <a href="index.php" class="btnout" onclick="return confirm('Are you sure you want to log out?');" style="background-color: #818181; border: 1px solid #d5d5d7;">&nbsp;&nbsp;Log out&nbsp;&nbsp;</a>
 </div>
     </div>
 
