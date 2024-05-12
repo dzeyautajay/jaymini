@@ -33,7 +33,7 @@
   	  <button type="submit" class="btn" name="reg_user">Register</button>
   	</div>
 	  <div class="input-group">
-<a href="login.php" class="btn2" style="text-decoration:none;">Already have an Account?</a>
+<a href="index.php" class="btn2" style="text-decoration:none;">Already have an Account?</a>
   </div>
   <div class="input-group">
   <hr style="border:none;border-top: 1px solid #ddd;">
