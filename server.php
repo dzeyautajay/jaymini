@@ -197,7 +197,7 @@ if (isset($_POST['delete_account'])) {
   $delete_query = "DELETE FROM users WHERE username='$username'";
   mysqli_query($db, $delete_query);
   session_destroy(); // Destroy all sessions
-  header('location: login.php'); // Redirect to login page
+  header('location: index.php'); // Redirect to login page
 }
 
 
